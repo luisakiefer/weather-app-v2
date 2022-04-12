@@ -1,0 +1,138 @@
+h1 {
+  text-align: center;
+  color: rgb(151, 169, 206);
+  padding: 30px;
+  padding-top: 60px;
+  margin: 0;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+h2,
+h3,
+h5 {
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: right;
+  margin: 0;
+}
+
+h5 {
+  margin: 0;
+  color: rgb(82, 81, 81);
+}
+
+input {
+  font-size: 14px;
+}
+
+.btn {
+  color: grey;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  color: black;
+  background-color: grey;
+}
+
+.container {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+}
+
+.search-header {
+  text-align: center;
+  font-size: 50px;
+}
+
+.first-card {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  border: 1 px, solid;
+  border-radius: 8px;
+  max-width: 500px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.first-card-header {
+  background-color: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+  border: none;
+  padding: 0px;
+}
+
+.card {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  border: 1 px, solid;
+  border-radius: 8px;
+  max-width: 500px;
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.card-header {
+  background-color: white;
+  border: none;
+  margin-left: 10px;
+  padding: 0px;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-body {
+  background-color: white;
+  border: none;
+  margin-left: 0px;
+  padding: 10px;
+}
+
+.card-text {
+  text-align: right;
+  font-size: 18px;
+}
+
+.weather-icon {
+  text-align: right;
+  font-size: 25px;
+  margin-top: 5px;
+  color: grey;
+}
+
+.temperature {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 30px;
+  padding-top: 60px;
+}
